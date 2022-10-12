@@ -32,7 +32,7 @@ const HomePage = props => {
 export async function getStaticProps() {
   // fetch data from an server
 
-  const client = await MongoClient.connect('mongodb+srv://abolhasan:Aa531861@cluster1.tarntsz.mongodb.net/meetups?retryWrites=true&w=majority');
+  const client = await MongoClient.connect('mongodb+srv://abolhasan:Aa531861@cluster0.rpjikrt.mongodb.net/?retryWrites=true&w=majority');
   MongoClient.connect();
   const db = client.db();
 
